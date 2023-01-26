@@ -1,0 +1,30 @@
+package input;
+import java.util.*;
+
+public class Add_input
+{
+	void display(int c,int d)
+	{
+		int add=c+d;
+		System.out.println("the result:"+add);
+	}
+
+	
+ 	
+
+	public static void main(String[] args) 
+	{
+		Add_input s1=new Add_input();
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the first number");
+		int a=s.nextInt();
+		System.out.println("enter the second number");
+		int b=s.nextInt();
+		s1.display(a,b);
+		
+		
+	
+
+	}
+
+}
